@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 610 273" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-332.362,-95.7242)">
+        <g id="CPO-Logo" transform="matrix(1,0,0,1,0,-66.1031)">
+            <g id="CPO" transform="matrix(1,0,0,1,0,2)">
+                <path d="M332.554,192L332.554,384L387.979,416L387.979,160L332.554,192ZM554.256,192L554.256,384L609.682,416L609.603,159.954L554.256,192ZM498.831,352L498.831,384L443.405,416L443.113,352.168L498.831,352ZM775.959,192L776.093,383.923L831.384,416L831.518,160.077L775.959,192ZM942.236,384L942.236,192L886.81,160L886.81,416L942.236,384ZM720.533,288L720.533,192L664.808,159.827L665.241,319.923L720.533,288ZM443.405,224L443.405,160L498.831,192L498.831,224L443.405,224Z"/>
+            </g>
+        </g>
+    </g>
+</svg>

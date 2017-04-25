@@ -1,0 +1,194 @@
+body {
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+}
+
+.border {
+  border-top: 4px #000 solid;
+}
+
+.container {
+  width: 100%;
+}
+
+.content {
+  margin: 10rem auto;
+  min-height: 640px;
+  width: 640px;
+  text-align: center;
+}
+
+.content > div {
+  margin: 0 32px;
+}
+
+.content ul {
+  list-style-type: none;
+}
+
+.brand img {
+  margin-bottom: 1rem;
+  width: 77.5%;
+}
+
+.name {
+  font-size: 4.5rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 3.4rem;
+  font-weight: light;
+  margin-top: -1.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.location {
+  background: #fff;
+  padding: 5px;
+  position: relative;
+  width: 150px;
+  margin: auto;
+  top: -2rem;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.8rem;
+}
+
+.available {
+  margin: 0;
+}
+
+.available__prefix {
+  font-weight: 400;
+  font-size: 2.8rem;
+  margin: 1rem 0 0 0;
+}
+
+.available__date {
+  font-size: 3rem;
+  margin: -1rem 0 3rem 0;
+}
+.available__date .available__when {
+  font-style: italic;
+  font-weight: 300;
+  text-transform: lowercase;
+  margin: 0;
+}
+.available__date .available__month {
+  font-weight: 700;
+  font-style: italic;
+  margin: 0;
+}
+
+.dev-icons {
+  color: #fff;
+  display: flex;
+  font-size: 3rem;
+  padding: 0 0.4rem;
+  margin: 4rem 0 3rem 0;
+}
+.dev-icons li {
+  flex-grow: 1;
+}
+.dev-icons li div {
+  display: flex;
+}
+.dev-icons li div span {
+  margin: auto;
+}
+
+.sm-icons {
+  display: flex;
+  font-size: 3rem;
+  justify-content: space-between;
+  padding: 0;
+  margin-top: 3rem;
+}
+.sm-icons li {
+  margin: 0;
+}
+.sm-icons .socicon {
+  color: #fff;
+  text-decoration: none;
+  margin: 0;
+}
+
+.dev-hexagon {
+  width: 64px;
+  height: 38.4px;
+  background: #000;
+  position: relative;
+  margin: 12.8px;
+  display: flex;
+  margin: auto;
+}
+.dev-hexagon:before {
+  content: "";
+  position: absolute;
+  top: -16px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-bottom: 16px solid #000;
+}
+.dev-hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 32px solid transparent;
+  border-right: 32px solid transparent;
+  border-top: 16px solid #000;
+}
+.dev-hexagon .icon {
+  font-size: 2rem;
+  top: 1px;
+}
+
+.sm-hexagon {
+  width: 128px;
+  height: 76.8px;
+  background: #000;
+  position: relative;
+  margin: 25.6px;
+  display: flex;
+  display: flex;
+}
+.sm-hexagon:before {
+  content: "";
+  position: absolute;
+  top: -32px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 64px solid transparent;
+  border-right: 64px solid transparent;
+  border-bottom: 32px solid #000;
+}
+.sm-hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 64px solid transparent;
+  border-right: 64px solid transparent;
+  border-top: 32px solid #000;
+}
+.sm-hexagon .socicon {
+  font-size: 4.5rem;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+footer {
+  display: none;
+}
