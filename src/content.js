@@ -11,7 +11,7 @@ export const employment = {
   placeholder:
     "Being part of the Sportsbook core team. William Hill is one of the world’s leading betting and gaming companies and one of the most trusted brands in the industry, employing more than 16,000 people in nine countries.",
   current: {
-    from: "08-2017",
+    from: "August '17",
     company: "Casumo",
     position: "Front-End Developer",
     location: "Malta (Remote)",
@@ -19,8 +19,8 @@ export const employment = {
   },
   previous: [
     {
-      from: "02-2017",
-      to: "07-2017",
+      from: "February '17",
+      to: "July '17",
       company: "HolidayCheck",
       duration: 6,
       position: "Full-Stack Developer",
@@ -28,8 +28,8 @@ export const employment = {
       tech: ["react", "node", "mongo"]
     },
     {
-      from: "08-2016",
-      to: "01-2017",
+      from: "August '16",
+      to: "January '17",
       company: "Sky",
       duration: 6,
       position: "Full-Stack Developer",
@@ -37,8 +37,8 @@ export const employment = {
       tech: ["react", "node", "elixir"]
     },
     {
-      from: "02-2016",
-      to: "07-2016",
+      from: "February '16",
+      to: "July '16",
       company: "Piksel",
       duration: 6,
       position: "Full-Stack Developer",
@@ -46,8 +46,8 @@ export const employment = {
       tech: ["angular", "node", "bootstrap"]
     },
     {
-      from: "11-2015",
-      to: "01-2016",
+      from: "November '15",
+      to: "January '16",
       company: "William Hill",
       duration: 3,
       position: "Front-End Developer",
@@ -55,8 +55,8 @@ export const employment = {
       tech: ["react", "angular", "node"]
     },
     {
-      from: "12-2014",
-      to: "11-2015",
+      from: "December '14",
+      to: "November '15",
       company: "Betfred",
       duration: 12,
       position: "Lead Full-Stack Developer",
