@@ -1,11 +1,29 @@
 import React from "react";
 
-import Layout from "../components/layout";
+import Layout from "../components/_Layout";
+import Employment from "../components/Employment";
+import Section from "../components/Section";
+
+import Header from "../components/Header";
+import Profile from "../components/Profile";
+import Skills from "../components/Skills";
+import Footer from "../components/Footer";
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hello, World!</h1>
-    <p>Content to go here&hellip;</p>
+    <Header>
+      <Profile />
+    </Header>
+    <Section>
+      <Employment />
+    </Section>
+    <Section>
+      <Skills />
+    </Section>
+    <Section>
+      <Employment />
+    </Section>
+    <Footer />
   </Layout>
 );
 
