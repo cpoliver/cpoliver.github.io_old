@@ -11,17 +11,17 @@ import ReactIcon from "./svg/react-icon.svg"; // >:-(
 import RubyIcon from "./svg/ruby.svg";
 import SqlIcon from "./svg/sql.svg";
 
-export default ({ icon }) => {
+export default props => {
   return {
-    angular: <AngularIcon />,
-    bootstrap: <BootstrapIcon />,
-    dotnet: <DotnetIcon />,
-    elixir: <ElixirIcon />,
-    graphql: <GraphqlIcon />,
-    mongo: <MongoIcon />,
-    node: <NodeIcon />,
-    react: <ReactIcon />,
-    ruby: <RubyIcon />,
-    sql: <SqlIcon />
-  }[icon];
+    angular: <AngularIcon {...props} />,
+    bootstrap: <BootstrapIcon {...props} />,
+    dotnet: <DotnetIcon {...props} />,
+    elixir: <ElixirIcon {...props} />,
+    graphql: <GraphqlIcon {...props} />,
+    mongo: <MongoIcon {...props} />,
+    node: <NodeIcon {...props} />,
+    react: <ReactIcon {...props} />,
+    ruby: <RubyIcon {...props} />,
+    sql: <SqlIcon {...props} />
+  }[props.icon];
 };

@@ -69,6 +69,7 @@ export const employment = {
 export const skillSet = [
   {
     title: "Front-End",
+    icon: "devices",
     skills: [
       "JavaScript",
       "React / React Native",
@@ -79,10 +80,12 @@ export const skillSet = [
   },
   {
     title: "Back-End",
+    icon: "webserver",
     skills: ["NodeJS", "C# / ASP.net", "GraphQL", "Contentful", "SQL / MongoDB"]
   },
   {
     title: "Tools / Process",
+    icon: "tools",
     skills: [
       "Git / Github",
       "TDD / Unit Testing",

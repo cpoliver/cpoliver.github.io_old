@@ -4,10 +4,10 @@ import DevicesIcon from "./svg/devices.svg";
 import ToolsIcon from "./svg/tools.svg";
 import WebserverIcon from "./svg/webserver.svg";
 
-export default ({ icon }) => {
+export default props => {
   return {
-    devices: <DevicesIcon />,
-    tools: <ToolsIcon />,
-    webserver: <WebserverIcon />
-  }[icon];
+    devices: <DevicesIcon {...props} />,
+    tools: <ToolsIcon {...props} />,
+    webserver: <WebserverIcon {...props} />
+  }[props.icon];
 };

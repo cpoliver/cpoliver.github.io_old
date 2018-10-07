@@ -21,7 +21,7 @@ export const font = {
       xs: "1.58rem" //  19pt
     },
     body: {
-      xl: "1.92rem", //    23pt
+      xl: "1.92rem", // 23pt
       lg: "1.58rem", // 19pt
       md: "1.33rem", // 16pt
       sm: "1.08rem", // 13pt

@@ -9,15 +9,17 @@ import LinkedinIcon from "./svg/linkedin.svg";
 import SoundcloudIcon from "./svg/soundcloud.svg";
 import TwitterIcon from "./svg/twitter.svg";
 
-export default ({ icon }) => {
+export default props => {
+  const key = props.icon.toLowerCase().replace(".", "");
+
   return {
-    codepen: <CodepenIcon />,
-    email: <EmailIcon />,
-    flickr: <FlickrIcon />,
-    github: <GithubIcon />,
-    lastfm: <LastfmIcon />,
-    linkedin: <LinkedinIcon />,
-    soundcloud: <SoundcloudIcon />,
-    twitter: <TwitterIcon />
-  }[icon];
+    codepen: <CodepenIcon {...props} />,
+    email: <EmailIcon {...props} />,
+    flickr: <FlickrIcon {...props} />,
+    github: <GithubIcon {...props} />,
+    lastfm: <LastfmIcon {...props} />,
+    linkedin: <LinkedinIcon {...props} />,
+    soundcloud: <SoundcloudIcon {...props} />,
+    twitter: <TwitterIcon {...props} />
+  }[key];
 };

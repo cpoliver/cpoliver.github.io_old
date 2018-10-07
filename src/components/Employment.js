@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import { employment } from "../content";
 import { color, font } from "../styles";
+import DevIcon from "./icons/dev";
 
 const DateRange = styled.p`
   color: ${color.text.secondary}
@@ -27,8 +28,6 @@ const Description = styled.p`
 
 const TechStack = styled.ul``;
 
-const Technology = styled.ul``;
-
 export default ({
   from,
   to = "Present",
@@ -51,7 +50,7 @@ export default ({
     <Description>{description}</Description>
     <TechStack>
       {tech.map(technology => (
-        <Technology>{technology}</Technology>
+        <DevIcon icon={technology} width={32} />
       ))}
     </TechStack>
   </div>
