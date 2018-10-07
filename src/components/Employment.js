@@ -5,6 +5,17 @@ import { employment } from "../content";
 import { color, font } from "../styles";
 import DevIcon from "./icons/dev";
 
+const Employment = styled.div`
+  display: flex;
+`;
+
+const LeftColumn = styled.div`
+  flex: 3;
+`;
+const RightColumn = styled.div`
+  flex: 9;
+`;
+
 const DateRange = styled.p`
   color: ${color.text.secondary}
   font-size: ${font.size.body.lg};
@@ -28,30 +39,39 @@ const Description = styled.p`
 
 const TechStack = styled.ul``;
 
+const formatDuration = duration =>
+  duration ? `${duration} month contract` : "permanent";
+
 export default ({
-  from,
-  to = "Present",
   company,
   position,
   location,
+  from,
+  to = "Present",
+  duration,
   description = employment.placeholder,
   tech
 }) => (
-  <div>
-    <DateRange>
-      {from}
-      <br />
-      &mdash;
-      {to}
-    </DateRange>
-    <Heading>
-      {position} @ {company}, {location}
-    </Heading>
-    <Description>{description}</Description>
-    <TechStack>
-      {tech.map(technology => (
-        <DevIcon icon={technology} width={32} />
-      ))}
-    </TechStack>
-  </div>
+  <Employment>
+    <LeftColumn>
+      <DateRange>
+        {from}
+        <br />
+        &mdash;
+        {to}
+      </DateRange>
+      <Duration>{formatDuration(duration)}</Duration>
+    </LeftColumn>
+    <RightColumn>
+      <Heading>
+        {position} @ {company}, {location}
+      </Heading>
+      <Description>{description}</Description>
+      <TechStack>
+        {tech.map(technology => (
+          <DevIcon icon={technology} width={32} />
+        ))}
+      </TechStack>
+    </RightColumn>
+  </Employment>
 );
