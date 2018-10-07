@@ -1,11 +1,12 @@
 import React from "react";
 
 import { bio } from "../../content";
+import { H1, H2, Leader } from "../Typography";
 
 export default () => (
   <div>
-    <h1>{bio.name}</h1>
-    <h2>{bio.job}</h2>
-    <p>{bio.description}</p>
+    <H1>{bio.name}</H1>
+    <H2>{bio.job}</H2>
+    <Leader>{bio.description}</Leader>
   </div>
 );

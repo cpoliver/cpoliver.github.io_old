@@ -1,8 +1,6 @@
 import React from "react";
 
 import Layout from "../components/_Layout";
-import Section from "../components/Section";
-
 import {
   Header,
   Currently,

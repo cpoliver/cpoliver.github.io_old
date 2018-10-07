@@ -1,12 +1,14 @@
 import React from "react";
 
+import { employment } from "../content";
+
 export default ({
   from,
   to = "Present",
   company,
   position,
   location,
-  description,
+  description = employment.placeholder,
   tech
 }) => (
   <div>

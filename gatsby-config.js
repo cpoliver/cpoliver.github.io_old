@@ -12,10 +12,10 @@ module.exports = {
         name: "cpoliver.com",
         short_name: "starter",
         start_url: "/",
-        background_color: "#663399",
+        background_color: "#171727",
         theme_color: "#663399",
         display: "minimal-ui",
-        icon: "src/favicon.png" // This path is relative to the root of the site.
+        icon: "src/images/favicon.png" // This path is relative to the root of the site.
       }
     }
   ]
