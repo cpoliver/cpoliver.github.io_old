@@ -35,6 +35,7 @@ export const H4 = styled.h4`
   font-weight: ${weight.normal};
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 `;
 
 export const Leader = styled.p`

@@ -11,12 +11,14 @@ const Header = styled.div`
 
 const PortraitContainer = styled.div`
   flex: 3;
+  padding: 1rem;
 `;
 
 const TextContainer = styled.div`
   display: flex;
   flex: 9;
   flex-direction: column;
+  padding: 1rem;
 `;
 
 export default () => (

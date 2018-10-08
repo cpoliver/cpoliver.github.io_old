@@ -10,34 +10,55 @@ const Employment = styled.div`
 `;
 
 const LeftColumn = styled.div`
+  align-items: flex-end;
+  display: flex;
   flex: 3;
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem;
+  text-align: right;
 `;
 const RightColumn = styled.div`
+  display: flex;
   flex: 9;
+  flex-direction: column;
+  margin: 0;
+  padding: 1rem;
 `;
 
 const DateRange = styled.p`
   color: ${color.text.secondary}
   font-size: ${font.size.body.lg};
+  margin: 0;
+  padding: 0;
 `;
 
 const Duration = styled.p`
   color: ${color.text.muted};
   font-size: ${font.size.body.sm};
+  margin: 0;
+  padding: 0;
 `;
 
 const Heading = styled.p`
   color: ${color.text.primary};
   font-size: ${font.size.body.lg};
   font-weight: ${font.weight.bolder};
+  margin: 0;
+  padding: 0;
 `;
 
 const Description = styled.p`
   color: ${color.text.secondaryMuted};
   font-size: ${font.size.body.md};
+  margin: 0;
+  padding: 0;
 `;
 
-const TechStack = styled.ul``;
+const TechStack = styled.ul`
+  margin: 0;
+  padding: 0;
+`;
 
 const formatDuration = duration =>
   duration ? `${duration} month contract` : "permanent";

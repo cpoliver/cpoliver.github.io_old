@@ -11,10 +11,10 @@ const Body = styled.body`
 `;
 
 const Layout = ({ children }) => (
-  <Body>
+  <div>
     <Helmet
       bodyAttributes={{
-        style: `background-color: ${color.background.primary}`
+        style: `background-color: ${color.background.primary};`
       }}
       title={title}
       meta={[
@@ -32,7 +32,7 @@ const Layout = ({ children }) => (
         rel="stylesheet"
       />
     </Helmet>
-    <div
+    <Body
       style={{
         fontFamily: "'IBM Plex Sans', sans-serif",
         margin: "0 auto",
@@ -42,8 +42,8 @@ const Layout = ({ children }) => (
       }}
     >
       {children}
-    </div>
-  </Body>
+    </Body>
+  </div>
 );
 
 Layout.propTypes = {

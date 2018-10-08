@@ -5,7 +5,9 @@ import { color } from "../../styles";
 import { links } from "../../content";
 import SocialIcon from "../icons/social";
 
-const Footer = styled.div``;
+const Footer = styled.div`
+  background: rgba(0, 0, 0, 0.1);
+`;
 
 const IconList = styled.ul`
   display: flex;
