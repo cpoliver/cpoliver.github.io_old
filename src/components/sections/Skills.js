@@ -11,6 +11,7 @@ const Flex = styled.div`
 
 const SkillListContainer = styled.div`
   flex: 1;
+  justify-content: space-around;
 `;
 
 export default () => (

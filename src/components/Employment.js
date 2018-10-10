@@ -12,7 +12,7 @@ const Employment = styled.div`
 const LeftColumn = styled.div`
   align-items: flex-end;
   display: flex;
-  flex: 3;
+  flex: 2;
   flex-direction: column;
   margin: 0;
   padding: 1rem;
@@ -20,7 +20,7 @@ const LeftColumn = styled.div`
 `;
 const RightColumn = styled.div`
   display: flex;
-  flex: 9;
+  flex: 10;
   flex-direction: column;
   margin: 0;
   padding: 1rem;

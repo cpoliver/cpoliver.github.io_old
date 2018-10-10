@@ -14,7 +14,7 @@ const Layout = ({ children }) => (
   <div>
     <Helmet
       bodyAttributes={{
-        style: `background-color: ${color.background.primary};`
+        style: `background-color: ${color.background.primary}; margin: 0;`
       }}
       title={title}
       meta={[
@@ -36,8 +36,6 @@ const Layout = ({ children }) => (
       style={{
         fontFamily: "'IBM Plex Sans', sans-serif",
         margin: "0 auto",
-        maxWidth: 960,
-        padding: "0px 1.0875rem 1.45rem",
         paddingTop: 0
       }}
     >
